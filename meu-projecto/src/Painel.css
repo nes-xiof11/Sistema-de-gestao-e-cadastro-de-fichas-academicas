@@ -1,0 +1,39 @@
+.painel {
+    margin-left: 270px; /* espaço para o menu */
+    padding: 20px;
+    background: #fff;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .form-ficha {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  .form-ficha input,
+  .form-ficha select {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .form-ficha button {
+    padding: 8px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  

@@ -1,0 +1,43 @@
+/* src/Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50; /* cor de fundo */
+  color: white; /* texto branco */
+  padding: 20px;
+  height: 100vh;
+  transition: width 0.3s;
+}
+
+.sidebar.open {
+  width: 250px; /* você pode adicionar animação se quiser */
+}
+
+.sidebar h2.logo {
+  color: white; /* título em branco */
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li .nav-link {
+  color: white; /* links em branco */
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaço entre ícone e texto */
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.sidebar ul li .nav-link:hover {
+  color: #3498db; /* azul ao passar o mouse */
+}
